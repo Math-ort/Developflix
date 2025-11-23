@@ -76,31 +76,27 @@ h1 {
 }
 
 .genero-container {
-  margin-bottom: 30px;
-  margin: 20px;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-
-
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
   }
 
 
 h2 {
   margin-bottom: 10px;
-  margin: 0 0 10px 0;
   font-weight: 700; 
   font-size: 1.5rem;
  }
 
 .genero {
   display: flex;
-
-  gap: 10px; 
-  padding-bottom: 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+  gap: 15px; 
  }
 
 .genero img {
-  width: 150px; 
+  width: 175px; 
   height: auto; 
   border-radius: 5px;
   cursor: pointer;
@@ -109,20 +105,12 @@ h2 {
   flex-wrap: wrap; 
   gap: 15px; 
   padding-bottom: 10px;
-
-}
-
-.genero img:hover {
-  transform: scale(1.05); 
-  
  }
-
 .pelicula h3 {
   font-size: 1rem;
   color:black;
-  padding: 10px;
-  margin: 0;
   font-weight: 500;
-  
  }
-
+.tajeta {
+width: 200px;
+}
